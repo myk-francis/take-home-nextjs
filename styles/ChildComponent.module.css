@@ -1,0 +1,52 @@
+.body_container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  color: white;
+}
+
+.container {
+  height: 100vh;
+  width: 480px;
+  border: 1px solid red;
+  background-color: #e29898f7;
+  border-radius: 50px;
+}
+
+.wrapper {
+  width: 60%;
+  margin:auto;
+  position: relative;
+  top: 20%;
+  
+}
+
+.p1 {
+  font-size: x-small;
+  width: 90%;
+}
+
+.inline { 
+  float: right;
+ }
+
+ .buttonBack {
+   position: relative;
+   top: 200px;
+ }
+
+ .btn {
+  width: 40%;
+  padding: 10px;
+  background-color:rgb(119, 147, 197);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  position: relative;
+  left: 140px;
+  bottom: 20px;
+  cursor: pointer;
+}
+
